@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLChoThueNhaDB">
+  <DataContextMoniker Name="/QLChoThueNhaDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="71656504-271a-45a9-af4a-8709c6662727" absoluteBounds="0.75, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLChoThueNhaDBDataContext/NHA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88507232-826a-47ee-af8d-ee01fb6c53c9" absoluteBounds="0.765, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b115456c-9865-42d8-8d9c-cf6679247e41" absoluteBounds="0.75, 1, 2, 1.5785953776041663">
+      <DataClassMoniker Name="/QLChoThueNhaDBDataContext/KHACHTHUENHA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c323a8c5-6fc2-4d37-97f3-0416a6166868" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a4813d2-3801-4377-a723-4ddb1a9a97b2" absoluteBounds="3.5, 0.875, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/QLChoThueNhaDBDataContext/HOPDONG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="221fc56f-2f2f-46fb-b98f-abc11a3cab29" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.78929768880208); (3.5 : 1.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLChoThueNhaDBDataContext/KHACHTHUENHA/KHACHTHUENHA_HOPDONG" />
+      <nodes>
+        <classShapeMoniker Id="b115456c-9865-42d8-8d9c-cf6679247e41" />
+        <classShapeMoniker Id="6a4813d2-3801-4377-a723-4ddb1a9a97b2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.78929768880208); (4.5 : 4.78929768880208); (4.5 : 2.64589680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLChoThueNhaDBDataContext/NHA/NHA_HOPDONG" />
+      <nodes>
+        <classShapeMoniker Id="71656504-271a-45a9-af4a-8709c6662727" />
+        <classShapeMoniker Id="6a4813d2-3801-4377-a723-4ddb1a9a97b2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
